@@ -33,7 +33,7 @@ const userInterfaceStrings = {
   loading: 'Loading dependencies...',
   about: '',
   noErrors: 'No Errors',
-  showDetails: 'Show Details',
+  showDetails: '',
   fullscreen: 'Fullscreen',
   openInNewWindow: 'Open in new window',
   codesandbox: 'Open in CodeSandbox',
