@@ -187,7 +187,7 @@ export default memo(function EditorPane({
         getTypeInfo={typescriptOptions.enabled ? getTypeInfo : undefined}
         tooltipStyle={externalStyles.tooltip}
       />
-      {showDetails && (
+{/*       {showDetails && (
         <div style={styles.overlayContainer}>
           <div style={styles.overlay}>
             <Overlay isError={isError}>
@@ -206,7 +206,7 @@ export default memo(function EditorPane({
             </Overlay>
           </div>
         </div>
-      )}
+      )} */}
       <Status
         text={
           !!error
@@ -220,7 +220,7 @@ export default memo(function EditorPane({
         textStyle={externalStyles.statusText}
         errorTextStyle={externalStyles.statusTextError}
       >
-        {strings.showDetails && (
+{/*         {strings.showDetails && (
           <Button
             active={showDetails}
             isError={isError}
@@ -228,7 +228,7 @@ export default memo(function EditorPane({
           >
             {strings.showDetails}
           </Button>
-        )}
+        )} */}
       </Status>
     </div>
   )
